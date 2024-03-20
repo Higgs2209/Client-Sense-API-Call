@@ -9,7 +9,6 @@ URL = 'https://clientculture.net/api/quarterly_results'
 
 headers = {
     'x-api-secret': API_KEY,
-    'value': ''
 }
 
 response = requests.get(URL, headers=headers)
