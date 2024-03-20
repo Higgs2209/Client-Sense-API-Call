@@ -14,7 +14,7 @@ response = requests.get(URL, headers=HEADERS)
 
 
 if response.status_code == 200:
-    # Date to .json
+    # Data to .json
     data = response.json()
 
     # Get the keys from the response
